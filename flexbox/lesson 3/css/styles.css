@@ -1,0 +1,16 @@
+.parent {
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    width: 150px;
+    background-color: #4D7298;
+    color: #fff;
+    padding: .5em;
+}

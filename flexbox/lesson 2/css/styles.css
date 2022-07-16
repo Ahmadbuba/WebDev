@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    max-width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    background-color: #4D7298;
+    border: 2px solid #77A6B6;
+    border-radius: .5em;
+    color: #fff;
+    padding: .5em;
+    flex: 1 200px;
+}
+
+li:first-child {
+    flex: 2 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
